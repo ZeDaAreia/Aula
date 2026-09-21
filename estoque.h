@@ -6,9 +6,9 @@
 
 typedef struct {
     int id;
+    char categoria[20];  
     char codigo_barras[20];    
-    char nome[30];
-    char categoria[30];      
+    char nome[30];      
     float preco;
     int quantidade;
 } Produto;
