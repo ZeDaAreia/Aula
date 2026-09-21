@@ -22,7 +22,7 @@ void listar_produtos(Produto lista[], int total) {
 float calcular_total(Produto lista[], int total) {
 float soma = 0.0;
 for (int i = 0; i < total; i++) {
-// BUG: calculo multiplicando errado e nao aplica taxa
+// BUG: calculo multiplicando errado e nao aplica taxa do jeito certo
 soma += lista[i].preco;
 }
 return soma;
