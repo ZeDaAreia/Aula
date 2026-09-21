@@ -71,7 +71,7 @@ int main(void) {
                 break;
             }
             case 4: {
-                float total = calcular_total(estoque, qtd);
+                float total = calcular_total(estoque, total_produtos);
                 printf("Total a prazo: R$ %.2f\n", aplicar_juros(total));
                 break;
 }
